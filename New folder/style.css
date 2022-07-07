@@ -4,15 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .color {
     color: coral;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -28,9 +29,9 @@ section {
 .link_button {
 
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(206, 107, 67), tomato);
     padding: 10px 30px;
-    color: aliceblue;
+    color: rgb(241, 241, 241);
     font-weight: 700;
     border-radius: 5px;
 }
@@ -38,4 +39,10 @@ section {
 .top_banner {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Dreaming {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
